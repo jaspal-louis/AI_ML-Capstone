@@ -1,0 +1,29 @@
+SCOPE OF THE MIT LICENCE IN THIS REPOSITORY
+===========================================
+
+The MIT licence in LICENSE applies to my own work in this repository:
+
+  - all code (notebooks/, scripts/)
+  - all written analysis (README.md, datasheet.md, model_card.md,
+    model-background.md, local-vs-global-fitting.md, docs/)
+  - all generated figures (figures/, runs/)
+  - the input coordinates I chose and submitted, as recorded in the
+    "x" columns of data/function_1.csv ... function_8.csv
+
+It does not and cannot extend to two things that are not mine to licence:
+
+  1. The eight objective functions themselves. These were never disclosed
+     to participants and are not reproduced here in any form.
+
+  2. The initial design points and the returned output values, which
+     originate with the Imperial College London Professional Certificate
+     in Machine Learning and Artificial Intelligence. These appear here
+     as the "output" column and the first rows of each CSV file.
+
+They are included because the course requires the work to be reproducible,
+which is not possible without them, and encourages participants to publish
+the result as a public repository. No wider licence over that material is
+claimed or implied. Anyone wishing to reuse the output values beyond
+reproducing this analysis should approach the course directly.
+
+See the Distribution section of datasheet.md for the fuller statement.

@@ -1,0 +1,29 @@
+# Verified environment for this repository.
+#
+# These are the exact versions the analysis was last run and checked against,
+# end to end, in a clean virtual environment on Python 3.11:
+#
+#   python scripts/make_figures.py 1 2 3 4 5 6 7 8
+#   python scripts/make_explainer_figures.py
+#   python scripts/make_quality_figure.py
+#   python scripts/local_vs_global.py
+#   python scripts/initial_design_check.py
+#   python scripts/length_scale_support.py
+#   jupyter notebook notebooks/bayesian_opt.ipynb   (Restart & Run All)
+#
+# Every script fixes its random seed, so with these versions the committed
+# tables and figures reproduce exactly.
+#
+# The pins are not brittle: the same analysis was also run on scikit-learn
+# 1.8.0 with numpy 2.4.4 and pandas 3.0.2, and the fitted values agreed to
+# about 1e-4 — far too little to change any conclusion. Relaxing the pins to
+# minor-version ranges is safe if a newer environment is needed.
+
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+
+# only needed to open and run the notebook
+jupyter==1.1.1
