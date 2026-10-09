@@ -247,6 +247,6 @@ The whole set was last verified end to end in a clean virtual environment on Pyt
 
 ## Use of AI tools and other sources
 
-Anthropic's Claude was used to support this project to write the notebook and the scripts in `scripts/`, draft initial documentation and produce additional analysis. Decisions regarding weekly submissions, review and override the model outcome were fully mine, as were updates to and final wording of all documentation, asd well as feedback to correct mistakes / make necessary enhancements to code base.
+Anthropic's Claude was used to support this project to write the notebook and the scripts in `scripts/`, draft initial documentation and produce additional analysis. Decisions regarding weekly submissions, review and override of the model outcome were fully mine, as were updates to and final wording of all documentation; additionally feedback to correct mistakes / make necessary enhancements to code base.
 
 The post-hoc comparison in [How this compared](#how-this-compared) draws on repositories other participants published after the close. No participant is named and no peer output value appears here.
